@@ -1,0 +1,55 @@
+Name: Bzip2
+Modules:
+
+    - Name: Utils
+      Locations:
+      - File: bzip2.c
+        StartLine: 143
+        EndLine: 209
+      - File: bzip2.c
+        StartLine: 888
+        EndLine: 1121
+      - File: bzip2.c
+        StartLine: 1590
+        EndLine: 1763
+    - Name: Int64
+      Locations:
+      - File: bzip2.c
+        StartLine: 210
+        EndLine: 294
+    - Name: FileProcessing
+      Locations:
+      - File: bzip2.c
+        StartLine: 295
+        EndLine: 627
+    - Name: ErrorHandling
+      Locations:
+      - File: bzip2.c
+        StartLine: 628
+        EndLine: 887
+    - Name: Compress
+      Locations:
+      - File: bzip2.c
+        StartLine: 1122
+        EndLine: 1302
+    - Name: Uncompress
+      Locations:
+      - File: bzip2.c
+        StartLine: 1303
+        EndLine: 1499
+    - Name: Test
+      Locations:
+      - File: bzip2.c
+        StartLine: 1501
+        EndLine: 1588
+    - Name: Driver
+      Locations:
+      - File: bzip2.c
+        StartLine: 1764
+        EndLine: 2030
+    - Name: Blocksort
+      Locations:
+      - File: blocksort.c
+    - Name: Huffman
+      Locations:
+      - File: huffman.c
