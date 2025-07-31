@@ -1,0 +1,37 @@
+Name: Example
+Modules:
+
+    - Name: FS
+      Locations:
+        - File: Example/core/Fs.h
+        - File: Example/core/Fs.cpp
+    - Name: Time
+      Locations:
+        - File: Example/core/Time.cpp
+        - File: Example/core/Time.h
+    - Name: Manager
+      Locations:
+        - File: Example/main.cpp
+        - File: Example/PluginManager.h
+    - Name: Config
+      Locations:
+        - File: Example/config.h
+    - Name: ShowFile_Plugin
+      Locations:
+        - File: Example/plugin/ShowFile.cpp
+        - File: Example/plugin/ShowFile.h
+    - Name: Plugin
+      Locations:
+        - File: Example/plugin/plugin.h
+    - Name: TimeLogging_Plugin
+      Locations:
+         - File: Example/plugin/TimeLogger.h
+         - File: Example/plugin/TimeLogger.cpp
+    - Name: Display
+      Locations:
+        - File: Example/core/Display.h
+        - File: Example/core/Display.cpp
+    - Name: Encryption
+      Locations:
+        - File: Example/plugin/Encryption.h
+        - File: Example/plugin/Encryption.cpp
