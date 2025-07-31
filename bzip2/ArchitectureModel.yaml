@@ -47,9 +47,16 @@ Modules:
       - File: bzip2.c
         StartLine: 1764
         EndLine: 2030
-    - Name: Blocksort
+    - Name: Blocksort_Impl
       Locations:
       - File: blocksort.c
+        StartLine: 0
+        EndLine: 1018
+    - Name: Blocksort_Entry
+      Locations:
+      - File: blocksort.c
+        StartLine: 1019
+        EndLine: 1095
     - Name: Huffman
       Locations:
       - File: huffman.c
