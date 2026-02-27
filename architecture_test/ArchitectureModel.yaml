@@ -9,21 +9,18 @@ Modules:
       Locations:
         - File: Example/core/Time.cpp
         - File: Example/core/Time.h
+        - File: Example/core/TimeFormatter.cpp
     - Name: Manager
       Locations:
         - File: Example/main.cpp
-        - File: Example/PluginManager.h
     - Name: Config
       Locations:
         - File: Example/config.h
-    - Name: ShowFile_Plugin
+    - Name: ShowFile
       Locations:
         - File: Example/plugin/ShowFile.cpp
         - File: Example/plugin/ShowFile.h
-    - Name: Plugin
-      Locations:
-        - File: Example/plugin/plugin.h
-    - Name: TimeLogging_Plugin
+    - Name: TimeLogger
       Locations:
          - File: Example/plugin/TimeLogger.h
          - File: Example/plugin/TimeLogger.cpp
@@ -33,5 +30,21 @@ Modules:
         - File: Example/core/Display.cpp
     - Name: Encryption
       Locations:
-        - File: Example/plugin/Encryption.h
-        - File: Example/plugin/Encryption.cpp
+        - File: Example/core/Encryption.h
+        - File: Example/core/Encryption.cpp
+
+Packages:
+    - Name: Storage
+      Modules:
+        - Encryption
+        - FS
+    - Name: Core
+      Modules:
+        - Storage
+        - Time
+        - Display
+    - Name: Driver
+      Modules:
+        - ShowFile
+        - TimeLogger
+        - Config

@@ -1,0 +1,12 @@
+Name: Gzip
+Modules:
+
+    - Name: gzip
+      Locations:
+      - File: gzip.h
+      - File: gzip.c
+    - Name: lzw
+      Locations:
+      - File: lzw.h
+      - File: lzw.c
+
